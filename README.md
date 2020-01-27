@@ -1,4 +1,6 @@
-This is a boilerplate based off the tutorial used here (and create-react-app.):
+** In testing - please do not use this yet!! **
+
+This is a boilerplate based off the tutorial used here:
 https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
 
 and here:
@@ -27,5 +29,20 @@ Put the following into your package.json (add format line to scripts if scripts 
 "format": "prettier --write \"src/\*_/_.{js,jsx}\"",
 },
 
-To run the project:
+## Development:
+
+To run the project in development you must start the server AND the client in 2 terminal windows:
+
+terminal 1:
+cd api
+npm start
+
+terminal 2:
+cd client
 npm run dev
+
+## Test:
+
+npm run test
+
+## Production:
