@@ -44,7 +44,7 @@ To run the project in development you must start the server AND the client in 2 
 
 terminal 1:
 cd api
-npm start
+npm run dev
 
 terminal 2:
 cd client
@@ -57,3 +57,8 @@ npm run dev
 npm run test
 
 ## Production:
+
+???
+
+cd api
+npm start
