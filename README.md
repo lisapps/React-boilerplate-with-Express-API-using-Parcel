@@ -1,4 +1,4 @@
-** In testing - please do not use this yet!! **
+** In Beta testing - use at your own risk!! **
 
 This was created because I wasn't able to find a boilerplate that met the following criteria:
 
