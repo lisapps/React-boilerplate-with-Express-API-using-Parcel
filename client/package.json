@@ -4,7 +4,7 @@
   "description": "React client with Parcel bundler, and an express server for calling api's.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/index.html",
+    "start": "parcel public/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
@@ -33,6 +33,7 @@
   "dependencies": {
     "@reach/router": "^1.2.1",
     "animate.css": "^3.7.2",
+    "babel-polyfill": "^6.26.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "jest": "^25.1.0",

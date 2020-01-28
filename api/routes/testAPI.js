@@ -1,8 +1,10 @@
 var express = require("express");
-var router = express.Router();
+var testAPI = express.Router();
+// uncomment to begin using request in routes
+// const request = require("request");
 
-router.get("/", function(req, res, next) {
+testAPI.get("/", (req, res) => {
   res.send({ text: "We are getting data from API with HOOKS OMG!" });
 });
 
-module.exports = router;
+module.exports = testAPI;
