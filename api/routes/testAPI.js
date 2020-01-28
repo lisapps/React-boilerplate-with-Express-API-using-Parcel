@@ -4,7 +4,9 @@ var testAPI = express.Router();
 // const request = require("request");
 
 testAPI.get("/", (req, res) => {
-  res.send({ text: "We are getting data from API with HOOKS OMG!" });
+  res.send({
+    text: "We are getting data from API with React async and hooks!"
+  });
 });
 
 module.exports = testAPI;
