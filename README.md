@@ -12,12 +12,13 @@ To install the project:
 navigate to project directory.
 
 command line:
-$ npx express-generator api
-$ cd api
+This is a modified version of what you get by installing npx express-generator api
+
+\$ cd api
 \$ npm install
 
-$ cd ../
-$ mkdir client
+\$ cd ../
+\$ mkdir client
 \$ cd client
 
 \$ npm install
