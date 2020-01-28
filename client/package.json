@@ -32,6 +32,8 @@
     "sass": "^1.25.0"
   },
   "dependencies": {
+    "@reach/router": "^1.2.1",
+    "animate.css": "^3.7.2",
     "babel-polyfill": "^6.26.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
