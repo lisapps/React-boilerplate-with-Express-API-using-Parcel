@@ -15,7 +15,7 @@ function Example() {
   if (data)
     return (
       <>
-        <p className="App-intro">{data.text}</p>
+        <p className="animated fadeIn">>{data.text}</p>
       </>
     );
 }

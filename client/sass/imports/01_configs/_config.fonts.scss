@@ -1,0 +1,37 @@
+/* ======================================== */
+/* =                                      = */
+/* =                    Fonts             = */
+/* =                                      = */
+/* ======================================== */
+
+/*
+.
+.     Defines fonts and mixins to set font settings for
+.     use in different component classes
+.      
+*/
+
+// -- Example
+// @font-face {
+//     font-family: 'FuturaPTBold';
+//     src: url('../fonts/Futura_PT/FuturaPTBold.otf') format('otf'),
+//     url('../fonts/Futura_PT/FuturaPTBold.woff') format('woff');
+//     }
+
+// use in css styles:    font-family: FuturaPTBold;
+
+
+/* Text styles */
+
+// -- Example
+// @mixin menu_active_text {
+//   font-family: FuturaPTBold;
+//   font-size: 12px;
+//   color: $greyish_brown;
+// }
+//
+// use in css: 
+// .e-menuItem {
+//   @include menu_active_text;
+// 		margin: 6px 0 20px;
+// }

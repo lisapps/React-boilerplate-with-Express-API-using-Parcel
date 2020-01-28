@@ -1,0 +1,61 @@
+/* ======================================== */
+/* =                                      = */
+/*   font utility classes                   */
+/* =                                      = */
+/* ======================================== */
+// text classes for p and li, etc where no other class is used
+.u-menu_active_text {
+      @include menu_active_text;
+    }
+    
+.u-menu_text {
+      @include menu_text;
+    }
+    
+.u-small_body_text {
+      @include small_body_text;
+    }
+    
+.u-h1 {
+      @include h1;
+    }
+    
+.u-h1_inactive {
+      @include h1_inactive;
+    }
+  
+.u-style-4_text {
+      @include style-4_text;
+    }
+    
+.u-component_labels {
+      @include component_labels;
+    }
+    
+.u-large_body {
+      @include large_body;
+    }
+    
+.u-body_text {
+      @include body_text;
+    }
+    
+.u-footnote {
+      @include footnote;
+    }
+    
+.u-small_label {
+      @include small_label;
+    }
+  
+.u-button_label {
+      @include button_label;
+  }
+    
+.u-small_sub-label {
+      @include small_sub-label;
+    }
+    
+.u-sum {
+      @include sum;
+    }

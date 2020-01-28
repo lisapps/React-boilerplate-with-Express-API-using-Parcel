@@ -1,0 +1,44 @@
+// vertically and horizontally align or just vertically align, it supports both
+@mixin center($center-all) {
+    position: absolute;
+    @if $center-all == both {
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    @else {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+  
+  /* mixin usage */
+  // .center-both p {
+  //     @include center(both);
+  //   }
+  //   .center-vert p {
+  //     @include center(vert);
+  //   }
+
+  .u-flexContainer--tablecenter {
+    width: 100%;
+  }
+  .u-align {
+    &__text {
+      &--left {text-align: left;}
+      &--center {text-align: center;}
+      &--right {text-align: right;}
+    }
+    &__button {
+      &--center {
+        margin: 0 auto;
+      }
+    }
+  }
+  .justify-space-between {
+    justify-content: space-between;
+  }

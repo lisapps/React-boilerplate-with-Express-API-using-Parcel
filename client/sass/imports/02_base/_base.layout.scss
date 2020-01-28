@@ -1,0 +1,59 @@
+/* ======================================== */
+/* =                                      = */
+/* =              Layout Base             = */
+/* =                                      = */
+/* ======================================== */
+
+/*
+.
+.     Base Styles for layout elements
+.	html | body | nav | div | section | header | main | article | aside | footer 
+.      
+*/
+
+// - - - - - - - - - -
+//-  * Section
+// - - - - - - - - - -
+body {
+	// font-family: "FuturaPTMedium";
+	// line-height: 1;
+	// color: $greyish_brown;
+	// font-weight: 300;
+	// letter-spacing: 0.5px;
+	// font-size: 12px;
+	// background-color: #f9fafc;
+}
+
+section {
+	// ..
+}
+
+.l-wrapper {
+	// display: flex;
+	// flex-flow: row;
+}
+
+.l-main {
+	// width: 83vw;
+}
+
+.l-content {
+	// ..for block content
+
+}
+
+.l-flexContainer {
+	display: flex;
+
+	&__row {
+		flex-flow: row;
+	}
+
+	&__column {
+		flex-flow: column;
+	}
+
+	&--wrap {
+		flex-wrap: wrap;
+	}
+}

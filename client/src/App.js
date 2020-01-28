@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import "../sass/main.scss";
+import "../node_modules/animate.css/animate.css";
 import Example from "./components/Example";
 
 function App() {
