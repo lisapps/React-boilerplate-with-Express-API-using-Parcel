@@ -59,7 +59,7 @@ npm run test
 
 ## Production:
 
-???
+Build process instructions coming soon...
 
 cd api
 npm start
