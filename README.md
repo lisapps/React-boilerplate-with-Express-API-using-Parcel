@@ -6,7 +6,7 @@ This was created because I wasn't able to find a boilerplate that met the follow
 - Was extremely minimal
 - Did not include Redux
 - Would use client side rendering, and have an express server to call API's for data.
-- Took advantage of the newer features of React like Hooks, async and Context.
+- Used a newer version of React to take advantage of new features like Hooks, async and Context.
 - Integrated Sass
 
 This is a boilerplate based off the tutorial used here:
@@ -31,6 +31,10 @@ This is a modified version of what you get by installing npx express-generator a
 \$ cd ../client
 
 \$ npm install
+
+*if you run into errors while installing, make sure that npm strict mode is off.  
+run in terminal:
+npm config set strict-ssl false
 
 If you want to use prettier code formatter with Typescript rules for better code hinting and formatting, make sure the code below is in your package.json file in the client folder. The rules are in .prettierignore. This won't require you to use Typescript or strict typing.
 
